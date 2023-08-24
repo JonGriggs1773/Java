@@ -38,6 +38,9 @@ public class CafeJava {
             System.out.println(customer1 + pendingMessage);
         }
         
+        System.out.println(isReadyOrder3 );
+        System.out.println(mochaPrice);
+
         if (isReadyOrder4) {
             System.out.println(customer4 + readyMessage);
             System.out.println(customer1 + displayTotalMessage + cappuccino);
