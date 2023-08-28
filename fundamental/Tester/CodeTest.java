@@ -14,5 +14,8 @@ public class CodeTest {
         for(int num : myArray) {
             System.out.println(num);
         }
+
+        String[] names = {"Kathy", "Greg", "Gertrude"};
+        System.out.println(names[0]);
     }
 }
