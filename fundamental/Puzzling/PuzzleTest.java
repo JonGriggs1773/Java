@@ -14,15 +14,15 @@ public class PuzzleTest {
 
         ArrayList<String> passwordSet = tester.getNewPasswordSet(4);
 
-        for(String pass : passwordSet) {
-            System.out.println(pass);
-        }
+        // for(String pass : passwordSet) {
+        //     System.out.println(pass);
+        // }
 
-        tester.shuffleArray(passwordSet);
+        // tester.shuffleArray(passwordSet);
 
-        for(String pass : passwordSet) {
-            System.out.println(pass);
-        }
+        // for(String pass : passwordSet) {
+        //     System.out.println(pass);
+        // }
 
     
     }
