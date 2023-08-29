@@ -3,10 +3,13 @@ import java.text.DecimalFormat;
 public class TestCafe {
     public static void main(String[] args) {
 
-        //! Defining an instance of the CafeUtil, Item, and Order classes
+        //! Defining an instance of the CafeUtil
         CafeUtil store1 = new CafeUtil();
+
+        //! A class that I used to format the decimal places within my print statement
         DecimalFormat formatter = new DecimalFormat("#." + "0".repeat(2));
         
+        //! Instantiating Item objects
         Item mocha = new Item();
         mocha.name = "Mocha";
         mocha.price = 3.5;
@@ -33,6 +36,7 @@ public class TestCafe {
         // System.out.println(coffee.name);
         // System.out.println(cappiccino.name);
 
+        //! Instantiating Order objects
         //? formatter.format() converts the double to a string, so you have to adjust when concatenating.
         Order order1 = new Order();
         order1.name = "Cindhuri";
